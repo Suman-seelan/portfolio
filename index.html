@@ -1645,7 +1645,7 @@
                             </div><!-- Contact info end -->
 
                             <div class="md:col-span-7">
-                                <form id="contactForm" action="https://formsubmit.co/sumandiwakarss@gmail.com" method="POST" class="space-y-4">
+                                <form id="contactForm" action="https://formsubmit.co/sumandiwakarss1@gmail.com" method="POST" class="space-y-4">
                                     <div class="form-group">
                                         <input type="text" name="name" id="client__name" placeholder="Name"
                                             class="w-full p-5 text-sm outline-none h-13 focus:border-theme dark:focus:border-theme dark:placeholder:text-white/40"
@@ -1671,8 +1671,8 @@
                                         </button>
                                     </div>
                                 </form>
-                                <p id="successMessage" style="display: none; color: rgb(0,188,145);">Your form has been submitted successfully!</p>
-                                <script>
+                                <!-- <p id="successMessage" style="display: none; color: rgb(0,188,145);">Your form has been submitted successfully!</p> -->
+                                <!-- <script>
                                     document.getElementById('contactForm').addEventListener('submit', function(event) {
                                         event.preventDefault();
                                         const form = event.target;
@@ -1683,9 +1683,10 @@
                                         })
                                         .then(response => {
                                             if (response.ok) {
-                                                document.getElementById('successMessage').style.display = 'block';
+                                                // document.getElementById('successMessage').style.display = 'block';
+                                                alert("form submitted successfully!!!");
                                                 setTimeout(() => {
-                                                    window.location.href = "https://suman-seelan.github.io/portfolio/";
+                                                    window.location.href = "http://127.0.0.1:5501/index.html";
                                                 }, 3000); // Redirect after 3 seconds
                                             } else {
                                                 alert('There was an error submitting the form. Please try again.');
@@ -1693,7 +1694,7 @@
                                         })
                                         .catch(error => console.error('Error:', error));
                                     });
-                                </script>
+                                </script> -->
                             </div>
                         </div>
                         <iframe
